@@ -5,7 +5,7 @@ var hw3 = require('fs');
 var teststr = hw3.readfilesync(index.html);
 
 var buffer = new Buffer(35);
-buffer.write (teststr, "utf-8");
+buffer.write ("Hello World from index.html", "utf-8");
 
 
 app.get('/', function(request, response) {
