@@ -2,7 +2,7 @@ var express = require('express');
 var hw3 = require('fs');
 var app = express.createServer(express.logger());
 //var hw3 = require('fs');
-var teststr = hw3.readFileSync(index.html);
+//var teststr = hw3.readFileSync(index.html);
 //console.log(teststr);
 //var buffer = new Buffer(35);
 //buffer.write ("Hello World from index.html", "utf-8");
